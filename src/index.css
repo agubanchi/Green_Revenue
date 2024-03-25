@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-Montserrat scroll-smooth;
+}
+
+
+.modal {
+  z-index: 1000000;
+  width: 80%;
+  background: #fff;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 1rem;
+}
+
+.modal-close
+{
+  margin-right: 0;
+  width: 1.275rem;
+}
